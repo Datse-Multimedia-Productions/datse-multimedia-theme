@@ -27,17 +27,17 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
  */
 function datsemultimedia_theme_setup() {
 
-    // Path to library
-    define ("DATSEMULTIMEDIA_LIB", get_template_directory() . "/library");
+    	// Path to library
+    	define ("DATSEMULTIMEDIA_LIB", get_template_directory() . "/library");
+    
+	// Customizer
+    	require_once (DATSEMULTIMEDIA_LIB . "/customizer.php");
 
-    // Customizer
-    require_once (DATSEMULTIMEDA_LIB . "/customizer.php");
+    	// Shortcodes
+    	require_once (DATSEMULTIMEDIA_LIB . "/shortcodes.php");
 
-    // Shortcodes
-    require_once (DATSEMULTIMEDIA_LIB . "/shortcodes.php");
-
-    // WooCommerce
-    require_once (DATSEMULTIMEDIA_LIB . "/woocommerce.php");
+    	// WooCommerce
+    	require_once (DATSEMULTIMEDIA_LIB . "/woocommerce.php");
 }
 
 add_action("after_setup_theme", "datsemultimedia_theme_setup", 10);
