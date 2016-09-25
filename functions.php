@@ -28,7 +28,7 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function datsemultimedia_theme_setup() {
 
     	// Path to library
-    	define ("DATSEMULTIMEDIA_LIB", get_template_directory() . "/library");
+    	define ("DATSEMULTIMEDIA_LIB", get_theme_root() . "/library");
     
 	// Customizer
     	require_once (DATSEMULTIMEDIA_LIB . "/customizer.php");
