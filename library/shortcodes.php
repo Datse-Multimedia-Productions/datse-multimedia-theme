@@ -73,6 +73,6 @@ function patreon_shortcode($atts, $content='') {
 	// Return Output
 
 } 
-add_shortcode("patreon", "patreon_shortcode);
+add_shortcode("patreon", "patreon_shortcode");
 
 ?>
