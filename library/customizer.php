@@ -43,7 +43,7 @@ function shortcodes_customize_register($wp_customize) {
 		"type" => "theme_mod"
 	));
 
-	$wp_customize->add_setting("patreon_supported, array(
+	$wp_customize->add_setting("patreon_supported", array(
                 "default" => "Supported By Jigme Datse Yli-Rasku's Patreons",
                 "type" => "theme_mod"
         ));
