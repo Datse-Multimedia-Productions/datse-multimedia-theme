@@ -31,8 +31,8 @@
 function shortcodes_customize_register($wp_customize) {
 	
 	// Shortcodes Secction
-	$wp_customize->add_section('datsemultimedia_shortcodes', array(
-		'title'    => __('Shortcodes', 'datsemultimedia'),
+	$wp_customize->add_section('datse_multimedia_theme_shortcodes', array(
+		'title'    => __('Shortcodes', 'datse_multimedia_theme'),
 		'description' => 'Datse Multimedia Theme Shortcodes',
 		'priority' => 120
 	));
