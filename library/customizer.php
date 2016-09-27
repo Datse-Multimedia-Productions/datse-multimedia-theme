@@ -28,7 +28,7 @@
  * @since 0.0.4
  *
  */
-fucnction shortcodes_customize_register($wp_customize) {
+function shortcodes_customize_register($wp_customize) {
 	
 	// Shortcodes Secction
 	$wp_customize->add_section('datsemultimedia_shortcodes', array(
