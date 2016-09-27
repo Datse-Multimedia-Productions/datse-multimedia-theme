@@ -34,28 +34,28 @@ function shortcodes_customize_register($wp_customize) {
 	$wp_customize->add_section('datsemultimedia_shortcodes', array(
 		'title'    => __('Shortcodes', 'datsemultimedia'),
 		'description' => 'Datse Multimedia Theme Shortcodes',
-		'priority' => 120,
+		'priority' => 120
 	));
 
 	// Patreon Shortcode Settings
 	$wp_customize->add_setting("patreon_name", array(
 		"default" => "JigmeDatse",
-		"type" => "theme_mod",
+		"type" => "theme_mod"
 	));
 
 	$wp_customize->add_setting("patreon_supported, array(
                 "default" => "Supported By Jigme Datse Yli-Rasku's Patreons",
-                "type" => "theme_mod",
+                "type" => "theme_mod"
         ));
 
 	$wp_customize->add_setting("patreon_other", array(
                 "default" => "jackconte",
-                "type" => "theme_mod",
+                "type" => "theme_mod"
         ));
 
 	$wp_customize->add_setting("patreon_content", array(
                 "default" => "Jigme Datse Yli-Rasku's Supporters on Patreon",
-                "type" => "theme_mod",
+                "type" => "theme_mod"
         ));
 
 	// Patreon Shorcode Controls
