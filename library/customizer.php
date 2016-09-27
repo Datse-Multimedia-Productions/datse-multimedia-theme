@@ -64,7 +64,7 @@ function shortcodes_customize_register($wp_customize) {
 		"section" => "datsemultimedia_shortcodes",
 		"setting" => "patreon_name",
 		"type" => "text"
-	)
+	));
 
 
 	$wp_customize->add_control("patreon_supported_control", array(
@@ -72,21 +72,21 @@ function shortcodes_customize_register($wp_customize) {
                 "section" => "datsemultimedia_shortcodes",
                 "setting" => "patreon_name",
                 "type" => "text"
-        )
+        ));
 
 	$wp_customize->add_control("patreon_other_control", array(
                 "label" => __("Patreon Name", "datsemultimedia"),
                 "section" => "datsemultimedia_shortcodes",
                 "setting" => "patreon_name",
                 "type" => "text"
-        )
+        ));
 
 	$wp_customize->add_control("patreon_content_control", array(
                 "label" => __("Patreon Name", "datsemultimedia"),
                 "section" => "datsemultimedia_shortcodes",
                 "setting" => "patreon_name",
                 "type" => "text"
-        )		
+        ));		
 
 }
 add_action( 'customize_register', 'shortcodes_customize_register');
