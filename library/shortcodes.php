@@ -48,7 +48,7 @@ function patreon_shortcode($atts, $content='') {
 		"Name" => "",
 		"Supported" => "",
 		"Other" => "",
-		), $atts)
+		), $atts));
 
 	if ($Name=="") { // Name Not Set
 		// Do Default Name Stuff
