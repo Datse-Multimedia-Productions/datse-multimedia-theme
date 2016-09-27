@@ -1,3 +1,4 @@
+<?php
 /**
  * Shortecodes support
  *
@@ -73,3 +74,5 @@ function patreon_shortcode($atts, $content='') {
 
 } 
 add_shortcode("patreon", "patreon_shortcode);
+
+?>
