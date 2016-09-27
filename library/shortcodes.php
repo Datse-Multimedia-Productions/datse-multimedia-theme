@@ -58,7 +58,7 @@ function patreon_shortcode($atts, $content='') {
 		// Do Default Supported Stuff
 	} else {
 		// Do stuff with set Supported
-	if ($Other=="") {
+	} if ($Other=="") {
 		// Do Default Other Stuff
 	} else {
 		// Do Stuff with set Other
