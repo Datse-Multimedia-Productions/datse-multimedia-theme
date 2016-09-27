@@ -89,5 +89,5 @@ fucnction shortcodes_customize_register($wp_customize) {
         )		
 
 }
-add_action( 'customize_register', 'shortcodes_customize_register);
+add_action( 'customize_register', 'shortcodes_customize_register');
 
